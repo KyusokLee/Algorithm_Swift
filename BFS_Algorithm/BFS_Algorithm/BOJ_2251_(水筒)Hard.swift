@@ -8,7 +8,6 @@
 import Foundation
 //BaekJoon n.2251 (水筒) 重要度: 🎖🎖🎖🎖🎖🎖🎖
 // 🎖DFS, BFS (HARD🔥)
-// ⚠️途中の段階
 
 //BFSを用いた方法
 let data = readLine()!.split(separator: " ").map { Int(String($0))! }

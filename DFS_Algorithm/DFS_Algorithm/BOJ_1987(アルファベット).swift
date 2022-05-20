@@ -8,7 +8,7 @@
 import Foundation
 
 //BaekJoon n.1987 (アルファベット) 重要度: 🎖🎖🎖🎖🎖🎖🎖🎖
-// 🎖🔥 DFS + Back Tracking + Bit Masking (HARD)
+// 🎖🔥🔥 DFS + Back Tracking + Bit Masking (HARD)
 // 一番左上に動かせる馬がいるとする
 // 🌈考察: パソコンは内部的に全てのデータを２進数として表現するため、Bit maskingを用いるとより早い処理時間、簡潔なコード、より少ないメモリ使用ができる
 //   1. また、配列に格納するとき、すでに大文字のCharacterのASCIIコードと "A"の ASCIIコードとの値を引いた Int型を配列に格納しておいた
@@ -55,6 +55,3 @@ func dfs_findingAvailable_MaxRoute(_ row: Int, _ column: Int, _ alphabetBit: Int
     
     result = max(result, count)
 }
-
-
-

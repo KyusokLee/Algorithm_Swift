@@ -7,7 +7,7 @@
 
 import Foundation
 //BaekJoon n.1325 (効率的なハッキング) 重要度: 🎖🎖🎖🎖🎖
-// 🎖DFS
+// 🎖DFS (典型的な問題)
 let data = readLine()!.split(separator: " ").map { Int(String($0))! }
 let computerNums = data[0], beliefRelation = data[1]
 var relationArray = Array(repeating: [Int](), count: computerNums)

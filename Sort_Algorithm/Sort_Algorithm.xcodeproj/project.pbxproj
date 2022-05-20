@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		940704A92833B57A0040F396 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940704A82833B57A0040F396 /* main.swift */; };
+		94534CA128373925002FBEB3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94534CA028373925002FBEB3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		940704A32833B57A0040F396 /* CopyFiles */ = {
+		94534C9B28373925002FBEB3 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,17 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		940704A52833B57A0040F396 /* BFS_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BFS_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
-		940704A82833B57A0040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		940704AF2833B59D0040F396 /* BOJ_2251_(水筒)Hard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2251_(水筒)Hard.swift"; sourceTree = "<group>"; };
-		943EA3362837A314005029F7 /* BOJ_7576(トマト).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_7576(トマト).swift"; sourceTree = "<group>"; };
-		94527A852834E4BC00A2570E /* BOJ_1012_(オーガニック白菜).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1012_(オーガニック白菜).swift"; sourceTree = "<group>"; };
-		94A8626028364E1000FDE9D7 /* BOJ_1697(かくれんぼ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1697(かくれんぼ).swift"; sourceTree = "<group>"; };
-		94A86261283652AA00FDE9D7 /* BOJ_2146(橋作り)_Hard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2146(橋作り)_Hard.swift"; sourceTree = "<group>"; };
+		94534C9D28373925002FBEB3 /* Sort_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
+		94534CA028373925002FBEB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		940704A22833B57A0040F396 /* Frameworks */ = {
+		94534C9A28373925002FBEB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,71 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9407049C2833B57A0040F396 = {
+		94534C9428373925002FBEB3 = {
 			isa = PBXGroup;
 			children = (
-				940704A72833B57A0040F396 /* BFS_Algorithm */,
-				940704A62833B57A0040F396 /* Products */,
+				94534C9F28373925002FBEB3 /* Sort_Algorithm */,
+				94534C9E28373925002FBEB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		940704A62833B57A0040F396 /* Products */ = {
+		94534C9E28373925002FBEB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				940704A52833B57A0040F396 /* BFS_Algorithm */,
+				94534C9D28373925002FBEB3 /* Sort_Algorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		940704A72833B57A0040F396 /* BFS_Algorithm */ = {
+		94534C9F28373925002FBEB3 /* Sort_Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				940704A82833B57A0040F396 /* main.swift */,
-				940704AF2833B59D0040F396 /* BOJ_2251_(水筒)Hard.swift */,
-				94527A852834E4BC00A2570E /* BOJ_1012_(オーガニック白菜).swift */,
-				94A8626028364E1000FDE9D7 /* BOJ_1697(かくれんぼ).swift */,
-				94A86261283652AA00FDE9D7 /* BOJ_2146(橋作り)_Hard.swift */,
-				943EA3362837A314005029F7 /* BOJ_7576(トマト).swift */,
+				94534CA028373925002FBEB3 /* main.swift */,
 			);
-			path = BFS_Algorithm;
+			path = Sort_Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		940704A42833B57A0040F396 /* BFS_Algorithm */ = {
+		94534C9C28373925002FBEB3 /* Sort_Algorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 940704AC2833B57A0040F396 /* Build configuration list for PBXNativeTarget "BFS_Algorithm" */;
+			buildConfigurationList = 94534CA428373925002FBEB3 /* Build configuration list for PBXNativeTarget "Sort_Algorithm" */;
 			buildPhases = (
-				940704A12833B57A0040F396 /* Sources */,
-				940704A22833B57A0040F396 /* Frameworks */,
-				940704A32833B57A0040F396 /* CopyFiles */,
+				94534C9928373925002FBEB3 /* Sources */,
+				94534C9A28373925002FBEB3 /* Frameworks */,
+				94534C9B28373925002FBEB3 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BFS_Algorithm;
-			productName = BFS_Algorithm;
-			productReference = 940704A52833B57A0040F396 /* BFS_Algorithm */;
+			name = Sort_Algorithm;
+			productName = Sort_Algorithm;
+			productReference = 94534C9D28373925002FBEB3 /* Sort_Algorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9407049D2833B57A0040F396 /* Project object */ = {
+		94534C9528373925002FBEB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					940704A42833B57A0040F396 = {
+					94534C9C28373925002FBEB3 = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 940704A02833B57A0040F396 /* Build configuration list for PBXProject "BFS_Algorithm" */;
+			buildConfigurationList = 94534C9828373925002FBEB3 /* Build configuration list for PBXProject "Sort_Algorithm" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 9407049C2833B57A0040F396;
-			productRefGroup = 940704A62833B57A0040F396 /* Products */;
+			mainGroup = 94534C9428373925002FBEB3;
+			productRefGroup = 94534C9E28373925002FBEB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				940704A42833B57A0040F396 /* BFS_Algorithm */,
+				94534C9C28373925002FBEB3 /* Sort_Algorithm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		940704A12833B57A0040F396 /* Sources */ = {
+		94534C9928373925002FBEB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				940704A92833B57A0040F396 /* main.swift in Sources */,
+				94534CA128373925002FBEB3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		940704AA2833B57A0040F396 /* Debug */ = {
+		94534CA228373925002FBEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -197,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		940704AB2833B57A0040F396 /* Release */ = {
+		94534CA328373925002FBEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +240,7 @@
 			};
 			name = Release;
 		};
-		940704AD2833B57A0040F396 /* Debug */ = {
+		94534CA528373925002FBEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,7 +251,7 @@
 			};
 			name = Debug;
 		};
-		940704AE2833B57A0040F396 /* Release */ = {
+		94534CA628373925002FBEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -275,25 +265,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		940704A02833B57A0040F396 /* Build configuration list for PBXProject "BFS_Algorithm" */ = {
+		94534C9828373925002FBEB3 /* Build configuration list for PBXProject "Sort_Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				940704AA2833B57A0040F396 /* Debug */,
-				940704AB2833B57A0040F396 /* Release */,
+				94534CA228373925002FBEB3 /* Debug */,
+				94534CA328373925002FBEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		940704AC2833B57A0040F396 /* Build configuration list for PBXNativeTarget "BFS_Algorithm" */ = {
+		94534CA428373925002FBEB3 /* Build configuration list for PBXNativeTarget "Sort_Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				940704AD2833B57A0040F396 /* Debug */,
-				940704AE2833B57A0040F396 /* Release */,
+				94534CA528373925002FBEB3 /* Debug */,
+				94534CA628373925002FBEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9407049D2833B57A0040F396 /* Project object */;
+	rootObject = 94534C9528373925002FBEB3 /* Project object */;
 }

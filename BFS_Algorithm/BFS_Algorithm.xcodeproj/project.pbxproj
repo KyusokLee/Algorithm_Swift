@@ -26,6 +26,7 @@
 		940704A52833B57A0040F396 /* BFS_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BFS_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		940704A82833B57A0040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		940704AF2833B59D0040F396 /* BOJ_2251_(水筒)Hard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2251_(水筒)Hard.swift"; sourceTree = "<group>"; };
+		9409680F283A285B00EC5656 /* BOJ_2178(迷路探索).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2178(迷路探索).swift"; sourceTree = "<group>"; };
 		943EA3362837A314005029F7 /* BOJ_7576(トマト).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_7576(トマト).swift"; sourceTree = "<group>"; };
 		943EA34B2837C6B3005029F7 /* BOJ_11559(puyopuyo).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_11559(puyopuyo).swift"; sourceTree = "<group>"; };
 		94527A852834E4BC00A2570E /* BOJ_1012_(オーガニック白菜).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1012_(オーガニック白菜).swift"; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 				94A86261283652AA00FDE9D7 /* BOJ_2146(橋作り)_Hard.swift */,
 				943EA3362837A314005029F7 /* BOJ_7576(トマト).swift */,
 				943EA34B2837C6B3005029F7 /* BOJ_11559(puyopuyo).swift */,
+				9409680F283A285B00EC5656 /* BOJ_2178(迷路探索).swift */,
 			);
 			path = BFS_Algorithm;
 			sourceTree = "<group>";

@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		940704B92833B5B70040F396 /* DFS_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFS_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		940704BC2833B5B70040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		943F7C38283B989C0068BADB /* DFS_Compare_Dictionary_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS_Compare_Dictionary_Array.swift; sourceTree = "<group>"; };
 		94527A862835027100A2570E /* BOJ_1325(効率的なハッキング).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1325(効率的なハッキング).swift"; sourceTree = "<group>"; };
 		94527A87283522D700A2570E /* BOJ_1520(下り道).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1520(下り道).swift"; sourceTree = "<group>"; };
 		94527A882835243F00A2570E /* BOJ_1987(アルファベット).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1987(アルファベット).swift"; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				94527A882835243F00A2570E /* BOJ_1987(アルファベット).swift */,
 				94A8625E2836445B00FDE9D7 /* BOJ_2468(安全領域).swift */,
 				94A8625F28364D3700FDE9D7 /* BOJ_2406(ウイルス).swift */,
+				943F7C38283B989C0068BADB /* DFS_Compare_Dictionary_Array.swift */,
 			);
 			path = DFS_Algorithm;
 			sourceTree = "<group>";

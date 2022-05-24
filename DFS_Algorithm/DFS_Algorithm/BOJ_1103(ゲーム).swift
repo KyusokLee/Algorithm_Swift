@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  BOJ_1103(ゲーム).swift
 //  DFS_Algorithm
 //
-//  Created by Kyus'lee on 2022/05/17.
+//  Created by Kyus'lee on 2022/05/24.
 //
 
 import Foundation

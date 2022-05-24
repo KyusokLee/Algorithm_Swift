@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		940704DF2833B7A70040F396 /* 文字列 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "文字列"; sourceTree = BUILT_PRODUCTS_DIR; };
 		940704E22833B7A70040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94D13443283D0A5500F8126C /* kakao_2021_Internship(数字と英単語).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "kakao_2021_Internship(数字と英単語).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				940704E22833B7A70040F396 /* main.swift */,
+				94D13443283D0A5500F8126C /* kakao_2021_Internship(数字と英単語).swift */,
 			);
 			path = "文字列";
 			sourceTree = "<group>";

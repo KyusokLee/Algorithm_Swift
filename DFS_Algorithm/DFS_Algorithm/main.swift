@@ -7,5 +7,3 @@
 
 import Foundation
 
-//BaekJoon n.1103 (ゲーム) 重要度: 🎖🎖🎖🎖🎖🎖🎖🎖🔥
-// 🎖🔥DP + DFS (HARD)

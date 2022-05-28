@@ -8,7 +8,6 @@
 import Foundation
 //HackerRank
 //🎖mini-maxSum
-
 func mini_maxSum(arr: [Int]) -> Void {
     var result = ""
     let sortedArray = arr.sorted()

@@ -26,6 +26,7 @@
 		94D8930F2841E8C600DB6A26 /* Math_problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math_problem; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D893122841E8C600DB6A26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D893192841EFD200DB6A26 /* 浮動小数点操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "浮動小数点操作.swift"; sourceTree = "<group>"; };
+		94D8931A2841F3DD00DB6A26 /* miniMax_Sum(HackerRank).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "miniMax_Sum(HackerRank).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 			children = (
 				94D893122841E8C600DB6A26 /* main.swift */,
 				94D893192841EFD200DB6A26 /* 浮動小数点操作.swift */,
+				94D8931A2841F3DD00DB6A26 /* miniMax_Sum(HackerRank).swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

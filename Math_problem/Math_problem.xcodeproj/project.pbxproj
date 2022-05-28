@@ -30,6 +30,7 @@
 		94D8931B2841FD4D00DB6A26 /* time_Conversion(HackerRank).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "time_Conversion(HackerRank).swift"; sourceTree = "<group>"; };
 		94D8931C2841FDDA00DB6A26 /* Breaking_the_records(HackerRank).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Breaking_the_records(HackerRank).swift"; sourceTree = "<group>"; };
 		94D8931F28420C6A00DB6A26 /* Takahashi's Failure(ABC252).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Takahashi's Failure(ABC252).swift"; sourceTree = "<group>"; };
+		94D893202842297F00DB6A26 /* Slot Strategy(ABC252).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slot Strategy(ABC252).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 				94D8931B2841FD4D00DB6A26 /* time_Conversion(HackerRank).swift */,
 				94D8931C2841FDDA00DB6A26 /* Breaking_the_records(HackerRank).swift */,
 				94D8931F28420C6A00DB6A26 /* Takahashi's Failure(ABC252).swift */,
+				94D893202842297F00DB6A26 /* Slot Strategy(ABC252).swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

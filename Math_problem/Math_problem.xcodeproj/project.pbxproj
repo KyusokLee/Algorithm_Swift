@@ -27,6 +27,7 @@
 		94D893122841E8C600DB6A26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D893192841EFD200DB6A26 /* 浮動小数点操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "浮動小数点操作.swift"; sourceTree = "<group>"; };
 		94D8931A2841F3DD00DB6A26 /* miniMax_Sum(HackerRank).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "miniMax_Sum(HackerRank).swift"; sourceTree = "<group>"; };
+		94D8931B2841FD4D00DB6A26 /* time_Conversion(HackerRank).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "time_Conversion(HackerRank).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				94D893122841E8C600DB6A26 /* main.swift */,
 				94D893192841EFD200DB6A26 /* 浮動小数点操作.swift */,
 				94D8931A2841F3DD00DB6A26 /* miniMax_Sum(HackerRank).swift */,
+				94D8931B2841FD4D00DB6A26 /* time_Conversion(HackerRank).swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

@@ -7,7 +7,7 @@
 
 import Foundation
 //HackerRank
-//mini-maxSum
+//🎖mini-maxSum
 
 func mini_maxSum(arr: [Int]) -> Void {
     var result = ""

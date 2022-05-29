@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  CLI_FlieManaging
+//  CLI_FileManaging
 //
 //  Created by Kyus'lee on 2022/05/29.
 //

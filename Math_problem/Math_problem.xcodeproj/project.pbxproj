@@ -32,6 +32,7 @@
 		94D8931F28420C6A00DB6A26 /* Takahashi's Failure(ABC252).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Takahashi's Failure(ABC252).swift"; sourceTree = "<group>"; };
 		94D893202842297F00DB6A26 /* Slot Strategy(ABC252).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slot Strategy(ABC252).swift"; sourceTree = "<group>"; };
 		94EC33232848D6FE00A4D5E0 /* Slot Median_(ABC253).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slot Median_(ABC253).swift"; sourceTree = "<group>"; };
+		94EC333A2848ECFE00A4D5E0 /* FizzBuzz_Sum_Hard(ABC253)HARD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FizzBuzz_Sum_Hard(ABC253)HARD.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				94D8931F28420C6A00DB6A26 /* Takahashi's Failure(ABC252).swift */,
 				94D893202842297F00DB6A26 /* Slot Strategy(ABC252).swift */,
 				94EC33232848D6FE00A4D5E0 /* Slot Median_(ABC253).swift */,
+				94EC333A2848ECFE00A4D5E0 /* FizzBuzz_Sum_Hard(ABC253)HARD.swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

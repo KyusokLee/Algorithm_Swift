@@ -7,20 +7,6 @@
 
 import Foundation
 ////Atcoder Beginners Contest 253
-////A. Slot Median?
-//// 🎖Math
-//
-//let data = readLine()!.split(separator: " ").map { Int(String($0))! }
-//
-//if data[0] <= data[1] && data[1] <= data[2] {
-//    print("Yes")
-//} else if data[2] <= data[1] && data[1] <= data[0] {
-//    print("Yes")
-//} else {
-//    print("No")
-//}
-
-////Atcoder Beginners Contest 253
 ////B. Distance Between Tokens
 //// 🎖BFS
 //typealias Locate = (row: Int, column: Int)

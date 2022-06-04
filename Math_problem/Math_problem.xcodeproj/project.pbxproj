@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Last_Two_Digits(ABC254).swift"; sourceTree = "<group>"; };
 		94D8930F2841E8C600DB6A26 /* Math_problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math_problem; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D893122841E8C600DB6A26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94D893192841EFD200DB6A26 /* 浮動小数点操作.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "浮動小数点操作.swift"; sourceTree = "<group>"; };
@@ -74,6 +75,7 @@
 				94D893202842297F00DB6A26 /* Slot Strategy(ABC252).swift */,
 				94EC33232848D6FE00A4D5E0 /* Slot Median_(ABC253).swift */,
 				94EC333A2848ECFE00A4D5E0 /* FizzBuzz_Sum_Hard(ABC253)HARD.swift */,
+				949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

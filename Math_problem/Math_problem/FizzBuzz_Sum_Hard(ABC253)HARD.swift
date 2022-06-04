@@ -29,6 +29,7 @@ func solution() {
     print(sumAll - sum1 - sum2 + sumOfLcm)
 }
 
+// 最大公約数の求め方
 func euclide(_ num1: inout Int, _ num2: inout Int) -> Int {
     var a = num1
     var b = num2

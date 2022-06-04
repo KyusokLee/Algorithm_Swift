@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  File.swift
 //  Dynamic_Programming
 //
-//  Created by Kyus'lee on 2022/05/17.
+//  Created by Kyus'lee on 2022/06/04.
 //
 
 import Foundation
@@ -28,4 +28,3 @@ for i in 1..<data {
 
 result.removeLast()
 print(result)
-

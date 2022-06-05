@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		94096810283A3F4000EC5656 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		943EA3372837A57F005029F7 /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		943F9E1A284CB2DC00743B04 /* K_Swap(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K_Swap(ABC254).swift"; sourceTree = "<group>"; };
 		94534C9D28373925002FBEB3 /* Sort_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		94534CA028373925002FBEB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +63,7 @@
 				94534CA028373925002FBEB3 /* main.swift */,
 				943EA3372837A57F005029F7 /* MergeSort.swift */,
 				94096810283A3F4000EC5656 /* QuickSort.swift */,
+				943F9E1A284CB2DC00743B04 /* K_Swap(ABC254).swift */,
 			);
 			path = Sort_Algorithm;
 			sourceTree = "<group>";
@@ -94,7 +96,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					94534C9C28373925002FBEB3 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -247,6 +249,7 @@
 		94534CA528373925002FBEB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -258,6 +261,7 @@
 		94534CA628373925002FBEB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;

@@ -26,6 +26,7 @@
 		9407241E2843BDA2006D9A3D /* CLI_FileManaging */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLI_FileManaging; sourceTree = BUILT_PRODUCTS_DIR; };
 		940724212843BDA2006D9A3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		940724282843BDBA006D9A3D /* FileManaging_parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManaging_parameters.swift; sourceTree = "<group>"; };
+		9429E614284DF63700F7D17B /* CLIprac1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLIprac1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				940724212843BDA2006D9A3D /* main.swift */,
+				9429E614284DF63700F7D17B /* CLIprac1.swift */,
 				940724282843BDBA006D9A3D /* FileManaging_parameters.swift */,
 			);
 			path = CLI_FileManaging;
@@ -92,7 +94,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					9407241D2843BDA2006D9A3D = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -245,6 +247,7 @@
 		940724262843BDA2006D9A3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -256,6 +259,7 @@
 		940724272843BDA2006D9A3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;

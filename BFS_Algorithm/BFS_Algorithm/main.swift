@@ -64,3 +64,12 @@ import Foundation
 //
 //print(card)
 //print(numbers)
+
+
+
+//let data = Int(readLine()!)!
+//var array = readLine()!.split(separator: " ").map { Int(String($0))! }.sorted()
+//let (minValue, maxValue) = (array.first!, array.last!)
+//var result = "\(minValue) \(maxValue)" + "\n"
+//result += array.map { String($0) }.joined(separator: "")
+//print(result)

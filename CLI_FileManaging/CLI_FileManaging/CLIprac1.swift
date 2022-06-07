@@ -11,6 +11,7 @@ let filemanager = FileManager.default
 let currentPath = filemanager.currentDirectoryPath
 var text = [String]()
 
+// アプリの場合は、使っちゃいけない (reason: 強制終了 exit code 0)
 func check() {
     guard CommandLine.arguments.count == 3 else {
         // commandlineのargumentが3個であるか否かをcheck
@@ -128,8 +129,10 @@ func findingBingo(_ row: Int, _ column: Int) -> Bool {
 
     return false
 }
-//
-//
+
+
+
+
 //// 🌈考察1: txtファイル上の改行は通常\nの文字として格納されることにきづいた
 ////[["1 3 5\n7 9 11\n13 15 17"], ["1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20"]]が出力される。
 //

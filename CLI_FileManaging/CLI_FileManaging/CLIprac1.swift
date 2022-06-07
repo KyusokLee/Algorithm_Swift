@@ -17,7 +17,6 @@ func check() {
         // CommandLine.arguments[0]は、実行しようとするmain　fileになる
         // つまり、引数が2つであるかをここで確認するのである
         print("""
-        This tool make a new file separated the words on different lines each Japanese period(。).
         This tool need two arguments.
         - examaple: swift script.swift input.txt output.txt
           argument 0: script file name
@@ -51,26 +50,10 @@ func input() {
     }
 }
 
-//// fileに出力する間数
-//func output() {
-////    text = text.split(whereSeparator: { $0 == "。" }).joined(separator: "。\n")
-//    //フルパスでなくても、1) ./hoge.txt　2) hoge.txt でもcurrentDirectory直下にファイルが作成される
-//    let outputFileName = currentPath + "/" + CommandLine.arguments[3]
-//    for i in 1...CommandLine.arguments.count - 2 {
-//        do {
-//            try text[i].write(toFile: outputFileName, atomically: true, encoding: String.Encoding.utf8)
-//        } catch let failure {
-//            print("write file failed")
-//            print(failure)
-//        }
-//    }
-//}
-
-
 check()
 input()
 
-// okay!
+// CommandLine.arguments[1]のファイルから数字を受け取り、ビンゴボードにする
 var intCard = Array(repeating: Array(repeating: 0, count: 3), count: 3)
 var splitArray = text[0].split(separator: " ").map { Int(String($0))! }
 var count = 3
@@ -79,7 +62,7 @@ for i in 0..<splitArray.count {
     intCard[i / count][i % count] = splitArray[i]
 }
 
-//okay!
+// CommandLine.arguments[2]のファイルから数字を受け取り、上記で作成したビンゴボードに当ててみる候補の[Int]
 var intNumbers = text[1].split(separator: " ").map { Int(String($0))! }
 
 print(intCard)

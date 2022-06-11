@@ -26,6 +26,7 @@
 		940704F22833B7C90040F396 /* Dynamic_Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dynamic_Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		940704F52833B7C90040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_12852(1にさせる2).swift"; sourceTree = "<group>"; };
+		9459A03A2854BB2F006769B9 /* BOJ_14002(最長増加部分数列4).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_14002(最長増加部分数列4).swift"; sourceTree = "<group>"; };
 		949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practical_Computing(ABC254).swift"; sourceTree = "<group>"; };
 		94D01DAD283E17FD0033410B /* BOJ_1965(箱入れ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1965(箱入れ).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +65,7 @@
 				94D01DAD283E17FD0033410B /* BOJ_1965(箱入れ).swift */,
 				949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */,
 				9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */,
+				9459A03A2854BB2F006769B9 /* BOJ_14002(最長増加部分数列4).swift */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";

@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		940704F22833B7C90040F396 /* Dynamic_Programming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dynamic_Programming; sourceTree = BUILT_PRODUCTS_DIR; };
 		940704F52833B7C90040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_12852(1にさせる2).swift"; sourceTree = "<group>"; };
 		949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practical_Computing(ABC254).swift"; sourceTree = "<group>"; };
 		94D01DAD283E17FD0033410B /* BOJ_1965(箱入れ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1965(箱入れ).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,6 +63,7 @@
 				940704F52833B7C90040F396 /* main.swift */,
 				94D01DAD283E17FD0033410B /* BOJ_1965(箱入れ).swift */,
 				949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */,
+				9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";
@@ -94,7 +96,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					940704F12833B7C90040F396 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -247,6 +249,7 @@
 		940704FA2833B7C90040F396 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -258,6 +261,7 @@
 		940704FB2833B7C90040F396 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;

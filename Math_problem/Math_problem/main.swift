@@ -96,4 +96,3 @@ import Foundation
 //    let maxNotPrime = isSquareNum.enumerated().filter { $0.1 == true }.map { Int($0.0) }.max()!
 //    print(maxNotPrime)
 //}
-

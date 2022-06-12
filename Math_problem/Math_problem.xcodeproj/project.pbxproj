@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2407(組み合わせ).swift"; sourceTree = "<group>"; };
 		949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Last_Two_Digits(ABC254).swift"; sourceTree = "<group>"; };
 		94D8930F2841E8C600DB6A26 /* Math_problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math_problem; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D893122841E8C600DB6A26 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				94EC333A2848ECFE00A4D5E0 /* FizzBuzz_Sum_Hard(ABC253)HARD.swift */,
 				949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */,
 				94F7012D2850C3AA00BEF754 /* Fizz Buzz practice.swift */,
+				9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

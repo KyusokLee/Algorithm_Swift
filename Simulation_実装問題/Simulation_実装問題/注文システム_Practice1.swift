@@ -97,48 +97,5 @@ func processStep4() -> String {
     return printResult
 }
 
-//反例
-//4
-//10
-//568735 6984 56789
-//518777 8947 38669
-//714265 618 53128
-//122392 6391 22337
-//128793 7556 25860
-//430803 2258 6765
-//31699 3134 84793
-//839101 568 79880
-//802400 4332 90640
-//901865 6534 45638
-//received order 5640 128793
-//check 6047
-//check 9505
-//ready 5640 128793
-//received order 9505 802400
-//received order 9505 802400
-//ready 9505 802400
-//check 5640
-//ready 9505 802400
-//received order 9505 518777
-//ready 9505 518777
-//received order 9505 122392
-//check 5640
-//ready 9505 122392
-//received order 5640 122392
-//ready 5640 122392
-//received order 5640 802400
-//check 9505
-//ready 5640 802400
-//received order 6047 802400
-//ready 6047 802400
-//received order 9505 128793
-//received order 6047 802400
-//received order 5640 901865
-//ready 9505 128793
-//ready 6047 802400
-//ready 5640 901865
-//received order 5640 802400
-//ready 5640 802400
-//check 9505
 
 // ✍️チャレンジ:  Step1 -> Step2 -> Step3 -> Step4 のような仕組み (🔥全てのStepが全部繋がっている仕組み)

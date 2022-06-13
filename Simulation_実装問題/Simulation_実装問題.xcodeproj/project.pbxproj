@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9473FE9528577BCB004CB141 /* 注文システム_Practice1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "注文システム_Practice1.swift"; sourceTree = "<group>"; };
 		94EC332D2848D77500A4D5E0 /* Simulation_実装問題 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simulation_実装問題"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94EC33302848D77500A4D5E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		94EC33372848D78300A4D5E0 /* Max_Min Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max_Min Query.swift"; sourceTree = "<group>"; };
@@ -60,6 +61,7 @@
 			children = (
 				94EC33302848D77500A4D5E0 /* main.swift */,
 				94EC33372848D78300A4D5E0 /* Max_Min Query.swift */,
+				9473FE9528577BCB004CB141 /* 注文システム_Practice1.swift */,
 			);
 			path = "Simulation_実装問題";
 			sourceTree = "<group>";
@@ -92,7 +94,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					94EC332C2848D77500A4D5E0 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -245,6 +247,7 @@
 		94EC33352848D77500A4D5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -256,6 +259,7 @@
 		94EC33362848D77500A4D5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;

@@ -32,6 +32,7 @@
 		9459A0382854985D006769B9 /* BOJ_9446(タームプロジェクト)_review1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_9446(タームプロジェクト)_review1.swift"; sourceTree = "<group>"; };
 		94A8625E2836445B00FDE9D7 /* BOJ_2468(安全領域).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2468(安全領域).swift"; sourceTree = "<group>"; };
 		94A8625F28364D3700FDE9D7 /* BOJ_2406(ウイルス).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2406(ウイルス).swift"; sourceTree = "<group>"; };
+		94C795B628589BD800D13E9D /* BOJ_16929(Two Dots).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_16929(Two Dots).swift"; sourceTree = "<group>"; };
 		94D01DAF283E62B60033410B /* BOJ_9446(タームプロジェクト)HARD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_9446(タームプロジェクト)HARD.swift"; sourceTree = "<group>"; };
 		94D13442283CEF9900F8126C /* BOJ_1103(ゲーム).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1103(ゲーム).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +77,7 @@
 				94D13442283CEF9900F8126C /* BOJ_1103(ゲーム).swift */,
 				94D01DAF283E62B60033410B /* BOJ_9446(タームプロジェクト)HARD.swift */,
 				9459A0382854985D006769B9 /* BOJ_9446(タームプロジェクト)_review1.swift */,
+				94C795B628589BD800D13E9D /* BOJ_16929(Two Dots).swift */,
 			);
 			path = DFS_Algorithm;
 			sourceTree = "<group>";

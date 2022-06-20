@@ -30,6 +30,7 @@
 		943EA3362837A314005029F7 /* BOJ_7576(トマト).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_7576(トマト).swift"; sourceTree = "<group>"; };
 		943EA34B2837C6B3005029F7 /* BOJ_11559(puyopuyo).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_11559(puyopuyo).swift"; sourceTree = "<group>"; };
 		94527A852834E4BC00A2570E /* BOJ_1012_(オーガニック白菜).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1012_(オーガニック白菜).swift"; sourceTree = "<group>"; };
+		94613E3D2860B10600FE33BE /* BFS_mazeEscaping_specialTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS_mazeEscaping_specialTime.swift; sourceTree = "<group>"; };
 		94A8626028364E1000FDE9D7 /* BOJ_1697(かくれんぼ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1697(かくれんぼ).swift"; sourceTree = "<group>"; };
 		94A86261283652AA00FDE9D7 /* BOJ_2146(橋作り)_Hard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2146(橋作り)_Hard.swift"; sourceTree = "<group>"; };
 		94C795B72858ADCA00D13E9D /* BOJ_1039(交換)_Hard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1039(交換)_Hard.swift"; sourceTree = "<group>"; };
@@ -78,6 +79,7 @@
 				94D01DAE283E33AD0033410B /* BOJ_14442(壁を壊して移動しよう2)HARD.swift */,
 				94EC33382848D97A00A4D5E0 /* Distance Between Tokens(ABC253).swift */,
 				94C795B72858ADCA00D13E9D /* BOJ_1039(交換)_Hard.swift */,
+				94613E3D2860B10600FE33BE /* BFS_mazeEscaping_specialTime.swift */,
 			);
 			path = BFS_Algorithm;
 			sourceTree = "<group>";

@@ -48,8 +48,7 @@ func bfs_breakingWall(_ startRow: Int, _ startColumn: Int) {
         //breakCheckは、壁を壊してからたどり着いた経路かを表せるやつ
         let (curRow, curColumn, breakCheck, breakCount) = neededVisitQueue[index]
         index += 1
-        print("row: \(curRow), column: \(curColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-        print("time: \(visited[curRow][curColumn][breakCheck])")
+        print(debugChecking(curRow, curColumn, breakCheck, breakCount, &visited))
         print("index: \(index)")
     
         if (curRow, curColumn) == destination {
@@ -82,14 +81,12 @@ func bfs_breakingWall(_ startRow: Int, _ startColumn: Int) {
                     //訪問したことない場合
                     visited[nextRow][nextColumn][breakCheck] = visited[curRow][curColumn][breakCheck] + 1
                     neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
-                    print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-                    print("nexttime: \(visited[nextRow][nextColumn][breakCheck])")
+                    print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                 } else {
                     //訪問したことある場合
                     if visited[nextRow][nextColumn][breakCheck] > visited[curRow][curColumn][breakCheck] + 1 {
                         visited[nextRow][nextColumn][breakCheck] = visited[curRow][curColumn][breakCheck] + 1
-                        print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-                        print("nexttime: \(visited[nextRow][nextColumn][breakCheck])")
+                        print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                         neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
                     }
                 }
@@ -102,14 +99,12 @@ func bfs_breakingWall(_ startRow: Int, _ startColumn: Int) {
                     }
                     visited[nextRow][nextColumn][nextBreakCheck] = visited[curRow][curColumn][breakCheck] + 1 + breakCount
                     neededVisitQueue.append((nextRow, nextColumn, nextBreakCheck, breakCount + 1))
-                    print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount + 1)")
-                    print("nexttime: \(visited[nextRow][nextColumn][nextBreakCheck])")
+                    print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                 } else {
                     //訪問したことある場合
                     if visited[nextRow][nextColumn][breakCheck] > visited[curRow][curColumn][breakCheck] + 1 + breakCount {
                         visited[nextRow][nextColumn][breakCheck] = visited[curRow][curColumn][breakCheck] + 1 + breakCount
-                        print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-                        print("nexttime: \(visited[nextRow][nextColumn][breakCheck])")
+                        print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                         neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
                     }
 //                    neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
@@ -134,18 +129,23 @@ func bfs_breakingWall(_ startRow: Int, _ startColumn: Int) {
                     //Gがあるところは、床であるため、breakCheck = 0を格納する
                     visited[nextRow][nextColumn][breakCheck] = visited[curRow][curColumn][breakCheck] + 1
                     neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
-                    print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-                    print("nexttime: \(visited[nextRow][nextColumn][breakCheck])")
+                    print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                 } else {
                     //訪問したことある場合
                     if visited[nextRow][nextColumn][breakCheck] > visited[curRow][curColumn][breakCheck] + 1 {
                         visited[nextRow][nextColumn][breakCheck] = visited[curRow][curColumn][breakCheck] + 1
-                        print("nextrow: \(nextRow), nextcolumn: \(nextColumn), wall?: \(breakCheck), breakCount: \(breakCount)")
-                        print("nexttime: \(visited[nextRow][nextColumn][breakCheck])")
+                        print(debugChecking(nextRow, nextColumn, breakCheck, breakCount, &visited))
                         neededVisitQueue.append((nextRow, nextColumn, breakCheck, breakCount))
                     }
                 }
             }
         }
     }
+}
+
+func debugChecking(_ row: Int, _ column: Int, _ checkBreakWall: Int, _ breakCount: Int, _ visited: inout [[[Int]]]) -> String {
+    var result = ""
+    result += "Row: \(row), Column: \(column), BreakWallFlag: \(checkBreakWall), BreakCount: \(breakCount)" + "\n"
+    result += "Arrival Time: \(visited[row][column][checkBreakWall])"
+    return result
 }

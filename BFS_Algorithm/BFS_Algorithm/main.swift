@@ -74,8 +74,6 @@ import Foundation
 //result += array.map { String($0) }.joined(separator: "")
 //print(result)
 
-
-
 //3 3
 //S##
 //###

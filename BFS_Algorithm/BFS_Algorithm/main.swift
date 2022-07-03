@@ -181,3 +181,14 @@ import Foundation
 //        index += 1
 //    }
 //}
+
+
+
+
+// 🌱Dictionary 練習　(max, filterとsortedの組み合わせ)
+//var maxColorCount: [Int: Int] = [1:2, 3:3, 4:4, 2:4]
+//var maxOne = maxColorCount.values.max()!
+//print(maxOne)
+//
+//let maxColor = maxColorCount.keys.filter { maxColorCount[$0] == maxOne }.sorted()
+//print(maxColor.first!)

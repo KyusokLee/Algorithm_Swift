@@ -193,3 +193,11 @@ import Foundation
 //let maxColor = maxColorCount.keys.filter { maxColorCount[$0] == maxOne }.sorted()
 //print(maxColor.first!)
 
+////２次元配列のソート
+//var pracArr = [[1, 3], [0, 3], [4, 5]]
+//let sortPracArr = pracArr.sorted(by: { $0[0] < $1[0] })
+//print(sortPracArr)
+
+// 2022/11/18-
+// コーディングテスト準備 (復習 +　補足)
+

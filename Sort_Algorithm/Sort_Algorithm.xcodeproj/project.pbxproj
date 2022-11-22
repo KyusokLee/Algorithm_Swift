@@ -28,6 +28,8 @@
 		943F9E1A284CB2DC00743B04 /* K_Swap(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "K_Swap(ABC254).swift"; sourceTree = "<group>"; };
 		94534C9D28373925002FBEB3 /* Sort_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Sort_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		94534CA028373925002FBEB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		94ABB23728A7A77F00D3EF9A /* duplicated_characterFindMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duplicated_characterFindMerge.swift; sourceTree = "<group>"; };
+		94ABB23828A7A7E700D3EF9A /* duplicate_intervalsFindMerge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duplicate_intervalsFindMerge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,8 @@
 				943EA3372837A57F005029F7 /* MergeSort.swift */,
 				94096810283A3F4000EC5656 /* QuickSort.swift */,
 				943F9E1A284CB2DC00743B04 /* K_Swap(ABC254).swift */,
+				94ABB23728A7A77F00D3EF9A /* duplicated_characterFindMerge.swift */,
+				94ABB23828A7A7E700D3EF9A /* duplicate_intervalsFindMerge.swift */,
 			);
 			path = Sort_Algorithm;
 			sourceTree = "<group>";

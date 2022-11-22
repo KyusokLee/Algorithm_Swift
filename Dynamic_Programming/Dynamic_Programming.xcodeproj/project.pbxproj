@@ -27,6 +27,7 @@
 		940704F52833B7C90040F396 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_12852(1にさせる2).swift"; sourceTree = "<group>"; };
 		9459A03A2854BB2F006769B9 /* BOJ_14002(最長増加部分数列4).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_14002(最長増加部分数列4).swift"; sourceTree = "<group>"; };
+		9467700E292D038400C0C93C /* BOJ_9251(LCS).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_9251(LCS).swift"; sourceTree = "<group>"; };
 		949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Practical_Computing(ABC254).swift"; sourceTree = "<group>"; };
 		94D01DAD283E17FD0033410B /* BOJ_1965(箱入れ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_1965(箱入れ).swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +67,7 @@
 				949A6D9B284BA95D001EAA06 /* Practical_Computing(ABC254).swift */,
 				9459A0392854A814006769B9 /* BOJ_12852(1にさせる2).swift */,
 				9459A03A2854BB2F006769B9 /* BOJ_14002(最長増加部分数列4).swift */,
+				9467700E292D038400C0C93C /* BOJ_9251(LCS).swift */,
 			);
 			path = Dynamic_Programming;
 			sourceTree = "<group>";
@@ -98,7 +100,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					940704F12833B7C90040F396 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -168,6 +170,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -228,6 +231,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -253,6 +257,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -265,6 +270,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

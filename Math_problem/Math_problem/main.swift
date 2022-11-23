@@ -96,3 +96,88 @@ import Foundation
 //    let maxNotPrime = isSquareNum.enumerated().filter { $0.1 == true }.map { Int($0.0) }.max()!
 //    print(maxNotPrime)
 //}
+
+//BaekJoon n.2609(最大公約数と最小公倍数)
+// 🎖Math
+// 入力される２個の自然数から、最大公約数と最小公倍数を出力
+// １行目: 最大公約数 (gcd)
+// 2行目: 最小公倍数 (lcm)
+
+//// 最大公約数を求める間数
+//func gcd(_ a: Int, _ b: Int) -> Int {
+//    var num1 = a
+//    var num2 = b
+//    // 余り
+//    let remainder = num1 % num2
+//
+//    if remainder == 0 {
+//        return num2
+//    } else {
+//        return gcd(num2, remainder)
+//    }
+//}
+//
+//let input = readLine()!.split(separator: " ").map { Int(String($0))! }
+//let (num1, num2) = (input[0], input[1])
+//var gcdResult = gcd(num1, num2)
+//var result = ""
+//
+//result += "\(gcdResult)\n"
+//result += "\(num1 * num2 / gcdResult)"
+//print(result)
+
+////BaekJoon n.10870(フィボナッチ数5)
+//// 🎖Math
+//// 再帰関数を用いた方法
+//
+//let num = Int(readLine()!)!
+//
+//func fibonacci(_ num: Int) -> Int {
+//    if num < 2 {
+//        return num
+//    }
+//
+//    return fibonacci(num - 1) + fibonacci(num - 2)
+//}
+//
+//print(fibonacci(num))
+
+
+////BaekJoon n.2749(フィボナッチ数3) 難易度: 🔥🔥🔥
+//// 🎖Math
+//// 大数が入力されるため、計算量を上手く減らす必要がある
+//let num = Int(readLine()!)!
+//let divideNum = 1000000
+//
+////Memoizationを用いる
+//// メモリ超過になってしまった (BaekJoon サイトでswiftに対して計算量の余裕を増やしていないのが原因であった)
+//func fibonacci3(_ num: Int) -> Int {
+//    if num == 0 {
+//        return 0
+//    }
+//    if num == 1 {
+//        return 1
+//    }
+//
+//    var fiboArr = [0, 1]
+//
+//    while fiboArr.count <= num {
+//        fiboArr.append((fiboArr[fiboArr.count - 1] + fiboArr[fiboArr.count - 2]) % divideNum)
+//    }
+//    return fiboArr[num]
+//}
+//
+//print(fibonacci3(num))
+
+//// メモリ超過にならないコード
+//var arr = Array(repeating: 0, count: 1_500_001)
+//arr[0] = 0
+//arr[1] = 1
+//for i in 2...1_500_000{
+//    arr[i] = (arr[i-1] + arr[i-2])%1_000_000
+//}
+//let n = Int(readLine()!)!
+//print(arr[n%1_500_000])
+
+
+

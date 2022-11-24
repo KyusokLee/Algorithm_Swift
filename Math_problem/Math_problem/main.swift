@@ -179,5 +179,24 @@ import Foundation
 //let n = Int(readLine()!)!
 //print(arr[n%1_500_000])
 
+//BaekJoon n.2748(フィボナッチ数2) 難易度: 🎖
+// 🎖Math
+let num = Int(readLine()!)!
+
+func fibonacci2(_ n: Int) -> Int {
+    var numArr = [0, 1, 1]
+    
+    for i in 0...n {
+        if i == 0 || i == 1 || i == 2 {
+            continue
+        } else {
+            numArr.append(numArr[i - 1] + numArr[i - 2])
+        }
+    }
+    
+    return numArr[n]
+}
+
+print(fibonacci2(num))
 
 

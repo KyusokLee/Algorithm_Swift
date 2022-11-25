@@ -179,24 +179,62 @@ import Foundation
 //let n = Int(readLine()!)!
 //print(arr[n%1_500_000])
 
-//BaekJoon n.2748(フィボナッチ数2) 難易度: 🎖
-// 🎖Math
-let num = Int(readLine()!)!
+////BaekJoon n.2748(フィボナッチ数2) 難易度: 🎖
+//// 🎖Math
+//let num = Int(readLine()!)!
+//
+//func fibonacci2(_ n: Int) -> Int {
+//    var numArr = [0, 1, 1]
+//
+//    for i in 0...n {
+//        if i == 0 || i == 1 || i == 2 {
+//            continue
+//        } else {
+//            numArr.append(numArr[i - 1] + numArr[i - 2])
+//        }
+//    }
+//
+//    return numArr[n]
+//}
+//
+//print(fibonacci2(num))
 
-func fibonacci2(_ n: Int) -> Int {
-    var numArr = [0, 1, 1]
-    
-    for i in 0...n {
-        if i == 0 || i == 1 || i == 2 {
-            continue
-        } else {
-            numArr.append(numArr[i - 1] + numArr[i - 2])
-        }
+//BaekJoon n.2581(素数) 難易度: 🎖🎖
+// 🎖Math (素数探しの問題)
+
+let minNum = Int(readLine()!)!
+let maxNum = Int(readLine()!)!
+var numArr = [Int]()
+var sum = 0
+var minPrimeNum = 0
+
+// MARK: 🔥素数探しの間数
+func isPrime(_ num: Int) -> Bool {
+    if num < 4 {
+        return num == 1 ? false : true
     }
     
-    return numArr[n]
+    for i in 2...Int(sqrt(Double(num))) {
+        if num % i == 0 {
+            return false
+        }
+    }
+    return true
 }
 
-print(fibonacci2(num))
+for i in stride(from: minNum, through: maxNum, by: 1) {
+    if isPrime(i) {
+        numArr.append(i)
+    }
+}
+
+if numArr.isEmpty {
+    print(-1)
+} else {
+    sum = numArr.reduce(0, +)
+    minPrimeNum = numArr.min()!
+    print(sum)
+    print(minPrimeNum)
+}
 
 

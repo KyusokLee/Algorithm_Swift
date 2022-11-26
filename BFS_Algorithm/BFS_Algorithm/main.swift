@@ -200,6 +200,46 @@ import Foundation
 
 // 2022/11/18-
 // コーディングテスト準備 (復習 +　補足)
+//BaekJoon n.1697 (かくれんぼ) 重要度: 🎖🎖🎖🎖🎖
+// かくれんぼシリーズ
+// 🎖BFS
+
+let location = readLine()!.split(separator: " ").map { Int(String($0))! }
+let (subin, sister) = (location[0], location[1])
+var result = 0
+
+bfs_findingSister(subin)
+print(result)
+
+func bfs_findingSister(_ locate: Int) {
+    // (現在位置、時間)
+    var neededVisitQueue = [(locate, 0)]
+    var index = 0
+    var visited = Array(repeating: false, count: 100001)
+    visited[locate] = true
+    
+    while index < neededVisitQueue.count {
+        let (curLocate, time) = neededVisitQueue[index]
+        
+        if curLocate == sister {
+            result = time
+            return
+        }
+        index += 1
+        
+        for next in [curLocate - 1, curLocate + 1, curLocate * 2] {
+            if next < 0 || next > 100000 {
+                continue
+            }
+            
+            if !visited[next] {
+                visited[next] = true
+                neededVisitQueue.append((next, time + 1))
+            }
+        }
+    }
+}
+
 
 
 

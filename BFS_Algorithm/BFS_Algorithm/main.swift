@@ -201,9 +201,8 @@ import Foundation
 // 2022/11/18-
 // コーディングテスト準備 (復習 +　補足)
 //BaekJoon n.1697 (かくれんぼ) 重要度: 🎖🎖🎖🎖🎖
-// かくれんぼシリーズ
+// かくれんぼシリーズ Start
 // 🎖BFS
-
 let location = readLine()!.split(separator: " ").map { Int(String($0))! }
 let (subin, sister) = (location[0], location[1])
 var result = 0
@@ -239,6 +238,12 @@ func bfs_findingSister(_ locate: Int) {
         }
     }
 }
+
+//BaekJoon n.12851 (かくれんぼ2) 重要度: 🎖🎖🎖🎖🎖🎖
+// BFS
+
+
+
 
 
 

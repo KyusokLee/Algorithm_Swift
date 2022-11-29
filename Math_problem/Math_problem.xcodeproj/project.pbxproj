@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		944EBBE229363C1F007247E6 /* CountSpecialNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSpecialNum.swift; sourceTree = "<group>"; };
 		9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2407(組み合わせ).swift"; sourceTree = "<group>"; };
 		949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Last_Two_Digits(ABC254).swift"; sourceTree = "<group>"; };
 		94D8930F2841E8C600DB6A26 /* Math_problem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Math_problem; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +81,7 @@
 				949A6D9A284BA187001EAA06 /* Last_Two_Digits(ABC254).swift */,
 				94F7012D2850C3AA00BEF754 /* Fizz Buzz practice.swift */,
 				9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */,
+				944EBBE229363C1F007247E6 /* CountSpecialNum.swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";
@@ -112,7 +114,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					94D8930E2841E8C600DB6A26 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -182,6 +184,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -242,6 +245,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -267,6 +271,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -279,6 +284,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = UNTPRP3C66;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";

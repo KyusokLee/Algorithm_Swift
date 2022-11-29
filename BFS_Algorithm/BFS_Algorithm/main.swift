@@ -200,48 +200,94 @@ import Foundation
 
 // 2022/11/18-
 // コーディングテスト準備 (復習 +　補足)
-//BaekJoon n.1697 (かくれんぼ) 重要度: 🎖🎖🎖🎖🎖
-// かくれんぼシリーズ Start
-// 🎖BFS
-let location = readLine()!.split(separator: " ").map { Int(String($0))! }
-let (subin, sister) = (location[0], location[1])
-var result = 0
-
-bfs_findingSister(subin)
-print(result)
-
-func bfs_findingSister(_ locate: Int) {
-    // (現在位置、時間)
-    var neededVisitQueue = [(locate, 0)]
-    var index = 0
-    var visited = Array(repeating: false, count: 100001)
-    visited[locate] = true
-    
-    while index < neededVisitQueue.count {
-        let (curLocate, time) = neededVisitQueue[index]
-        
-        if curLocate == sister {
-            result = time
-            return
-        }
-        index += 1
-        
-        for next in [curLocate - 1, curLocate + 1, curLocate * 2] {
-            if next < 0 || next > 100000 {
-                continue
-            }
-            
-            if !visited[next] {
-                visited[next] = true
-                neededVisitQueue.append((next, time + 1))
-            }
-        }
-    }
-}
+////BaekJoon n.1697 (かくれんぼ) 重要度: 🎖🎖🎖🎖🎖
+//// かくれんぼシリーズ Start
+//// 🎖BFS
+//let location = readLine()!.split(separator: " ").map { Int(String($0))! }
+//let (subin, sister) = (location[0], location[1])
+//var result = 0
+//
+//bfs_findingSister(subin)
+//print(result)
+//
+//func bfs_findingSister(_ locate: Int) {
+//    // (現在位置、時間)
+//    var neededVisitQueue = [(locate, 0)]
+//    var index = 0
+//    var visited = Array(repeating: false, count: 100001)
+//    visited[locate] = true
+//
+//    while index < neededVisitQueue.count {
+//        let (curLocate, time) = neededVisitQueue[index]
+//
+//        if curLocate == sister {
+//            result = time
+//            return
+//        }
+//        index += 1
+//
+//        for next in [curLocate - 1, curLocate + 1, curLocate * 2] {
+//            if next < 0 || next > 100000 {
+//                continue
+//            }
+//
+//            if !visited[next] {
+//                visited[next] = true
+//                neededVisitQueue.append((next, time + 1))
+//            }
+//        }
+//    }
+//}
 
 //BaekJoon n.12851 (かくれんぼ2) 重要度: 🎖🎖🎖🎖🎖🎖
 // BFS
+// 1行目: 最も早く見つける時間
+// 2行目: 妹を見つける方法の数
 
+let location = readLine()!.split(separator: " ").map { Int(String($0))! }
+let (subin, sister) = (location[0], location[1])
+let result = bfs_findingSister2(subin, sister)
+
+print(result.0)
+print(result.1)
+
+// (minTime, 訪問回数)を返す
+func bfs_findingSister2(_ locate: Int, _ target: Int) -> (Int, Int) {
+    // 現在のsubinの位置
+    var neededVisitQueue = [locate]
+    // indexの場所についた時間を格納する
+    var minTime = Array(repeating: -1, count: 100001)
+    // indexの場所に訪問した回数
+    var visitedCount = Array(repeating: 0, count: 100001)
+    var index = 0
+    minTime[locate] = 0
+    visitedCount[locate] = 1
+    
+    while index < neededVisitQueue.count {
+        let curLocate = neededVisitQueue[index]
+        
+        for nextLocate in [curLocate - 1, curLocate + 1, curLocate * 2] {
+            if nextLocate < 0 || nextLocate >= 100001 {
+                continue
+            }
+            
+            if minTime[nextLocate] == -1 {
+                // まだ、訪問してないから、-1である
+                minTime[nextLocate] = minTime[curLocate] + 1
+                visitedCount[nextLocate] = visitedCount[curLocate]
+                neededVisitQueue.append(nextLocate)
+            } else if minTime[nextLocate] == minTime[curLocate] + 1 {
+                // 訪問したことのあるところへ移動しようとしている場合であり、その場所に最短時間で行ける場合
+                visitedCount[nextLocate] += visitedCount[curLocate]
+            }
+        }
+        
+        index += 1
+    }
+    
+    // 妹がいる場所に着く時間と回数なので、sister
+    return (minTime[target], visitedCount[target])
+}
 
 
 

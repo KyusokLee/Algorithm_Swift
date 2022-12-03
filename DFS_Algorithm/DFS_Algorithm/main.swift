@@ -29,3 +29,5 @@ import Foundation
 //let changeTypeToArray = Array(slicing)
 //print(changeTypeToArray)  // [5, 7, 9, 11, 8]
 //print(type(of: changeTypeToArray)) // Array<Int>型
+
+

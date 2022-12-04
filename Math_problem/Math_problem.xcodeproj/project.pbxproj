@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		94399584293C9253002845F5 /* ConditionalFibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalFibonacci.swift; sourceTree = "<group>"; };
+		94399585293C9279002845F5 /* BigNumMultipleSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigNumMultipleSum.swift; sourceTree = "<group>"; };
 		944EBBE229363C1F007247E6 /* CountSpecialNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSpecialNum.swift; sourceTree = "<group>"; };
 		944EBBE329363D51007247E6 /* CountSevenInRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountSevenInRange.swift; sourceTree = "<group>"; };
 		9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BOJ_2407(組み合わせ).swift"; sourceTree = "<group>"; };
@@ -84,6 +86,8 @@
 				9459A03B2854BFB5006769B9 /* BOJ_2407(組み合わせ).swift */,
 				944EBBE229363C1F007247E6 /* CountSpecialNum.swift */,
 				944EBBE329363D51007247E6 /* CountSevenInRange.swift */,
+				94399584293C9253002845F5 /* ConditionalFibonacci.swift */,
+				94399585293C9279002845F5 /* BigNumMultipleSum.swift */,
 			);
 			path = Math_problem;
 			sourceTree = "<group>";

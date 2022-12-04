@@ -236,5 +236,3 @@ import Foundation
 //    print(sum)
 //    print(minPrimeNum)
 //}
-
-
